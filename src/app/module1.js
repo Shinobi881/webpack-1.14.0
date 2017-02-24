@@ -11,3 +11,4 @@ const createH1 = (text, id, className) => {
 };
 
 export const element1 = createH1(test, 'test1', 'intros');
+export const element2 = createH1('stop', 'test2', 'intros');
