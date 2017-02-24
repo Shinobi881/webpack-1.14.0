@@ -1,6 +1,5 @@
-// import './stylesheets/main.scss';
-import { test, element1 } from './module1';
-// const test = require('./module1.js');
+import './stylesheets/main.scss';
+import { test, element1 } from './app/module1';
 
 console.warn('Test: ', element1);
 
