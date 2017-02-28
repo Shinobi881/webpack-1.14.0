@@ -19,10 +19,10 @@ module.exports = {
     new ExtractTextPlugin('styles.css'),
     new HtmlWebpackPlugin({
       title: 'Webpack @1.14.0',
-      template: 'index.html'
+      template: './templates/index.html'
     })
   ],
   devServer: {
-    inline: true
+    contentBase: 'dist'
   }
 };
